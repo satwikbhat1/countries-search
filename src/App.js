@@ -12,7 +12,7 @@ const App = () => {
 
   // Fetch countries from API on component mount
   useEffect(() => {
-    const fetchCountries = async () => {
+    const getCountries = async () => {
       try {
         setLoading(true); // Start loading
         setError(null); // Clear previous errors
@@ -35,7 +35,7 @@ const App = () => {
       }
     };
 
-    fetchCountries();
+    getCountries();
   }, []);
 
   // Update filtered countries when search term changes

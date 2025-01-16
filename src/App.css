@@ -1,0 +1,46 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.search-bar {
+  width: 80%;
+  max-width: 500px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.countryCard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.countryCard img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.no-results {
+  font-size: 16px;
+  color: gray;
+}
